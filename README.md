@@ -1,10 +1,10 @@
 # 👋 Hi, I'm Vladimir Gavrilenko --- Backend Engineer (Go)
 
-I build reliable backend systems using **Go**, focusing on
-**microservices**, **gRPC**, performance optimization, and automation.\
-My experience includes real production tasks: infrastructure tools,
-real-time services, Telegram bots, and integrations with external APIs
-(OpenAI, crypto exchanges).
+I build reliable backend systems with **Go**, focusing on **gRPC**,
+microservices, performance, and automation.\
+My work spans infrastructure tooling, real-time services, Telegram bots,
+CI/CD pipelines, and integrations with external APIs (OpenAI, crypto
+exchanges).
 
 I'm open to backend roles (Go), remote or hybrid.
 
@@ -14,52 +14,68 @@ I'm open to backend roles (Go), remote or hybrid.
 
 **Backend:** Go (Golang), gRPC, REST, WebSockets\
 **Databases:** PostgreSQL, SQLite, MongoDB\
-**Architecture:** microservices, clean architecture, event-driven
-patterns, layered design\
-**DevOps:** Docker, Docker Compose, GitHub Actions, CI/CD, profiling
-(pprof)\
-**Automation:** Telegram Bot API, OpenAI API, integrations with
-third-party services\
-**Testing:** unit tests, integration tests
+**Architecture:** microservices, clean architecture, modular & layered
+design\
+**DevOps:** Docker, Docker Compose, GitHub Actions, CI/CD, pprof
+profiling\
+**Automation:** infrastructure deployment tools, Telegram bots, external
+API integrations\
+**Testing:** unit tests, integration tests, scenario testing
 
 ------------------------------------------------------------------------
 
-## 🔥 Highlighted Projects
+# 🔥 Highlighted Projects
 
-These repositories show how I design, structure and deliver backend
-services.
+These pinned repositories reflect my real engineering experience.
 
-### 📌 todoGRPC --- gRPC microservice with Clean Architecture
+------------------------------------------------------------------------
 
-A TODO backend rewritten from HTTP to gRPC with domain-driven structure
-and protobuf contracts.\
+### 📌 **todoGRPC --- gRPC Microservice with Clean Architecture**
+
+A backend TODO service rewritten from HTTP to gRPC using clean
+architecture principles.\
+Includes protobuf API, domain isolation, and structured service layers.\
 🔗 https://github.com/Vova4o/todoGRPC
 
 ------------------------------------------------------------------------
 
-### 📌 grpc --- Advanced gRPC Playground
+### 📌 **grpc --- Advanced gRPC Playground**
 
-Demonstrates real gRPC capabilities: streaming, interceptors, middleware
-and structured service design.\
+A practical sandbox demonstrating real gRPC features:\
+unary RPCs, server/client streaming, bidirectional streaming,
+interceptors and middleware.\
 🔗 https://github.com/Vova4o/grpc
 
 ------------------------------------------------------------------------
 
-### 📌 metrix --- Metrics Aggregation Service
+### 📌 **metrix --- Metrics Aggregation Backend**
 
-A backend for ingesting, storing and exposing custom application
-metrics.\
-Includes middleware, workers, graceful shutdown and modular project
-layout.\
+Backend for custom metrics ingestion, storage and exposition.\
+Implements middleware, workers, graceful shutdown, modular architecture
+and configuration management.\
 🔗 https://github.com/Vova4o/metrix
 
 ------------------------------------------------------------------------
 
-### 📌 TGBotWords --- Telegram Word Game Bot
+### 📌 **bootCamp2025CaseSber --- Hackathon Case Implementation (Winner)**
 
-A Telegram bot with keyboard UI, session handling and Russian word
-logic.\
-🔗 https://github.com/Vova4o/TGBotWords
+Project developed during the **Open Source Bootcamp 2025** (Sber).\
+Includes backend logic, API design, and architecture tailored for
+real-world case tasks.\
+Demonstrates teamwork, fast prototyping and problem-solving under
+constraints.\
+🔗 https://github.com/Vova4o/bootCamp2025CaseSber
+
+------------------------------------------------------------------------
+
+### 📌 **VPSSetup --- Deployment & Infrastructure Automation Tool**
+
+A Go-based automation utility designed to simplify deploying
+applications on VPS servers.\
+Includes environment setup, containerization, server configuration, and
+workflow automation.\
+Shows strong DevOps integration and production-oriented engineering.\
+🔗 https://github.com/Vova4o/VPSSetup
 
 ------------------------------------------------------------------------
 
@@ -67,24 +83,23 @@ logic.\
 
 ✔ Microservices with clean architecture\
 ✔ High-performance gRPC APIs\
-✔ Real-time features (chat, notifications, streaming)\
-✔ Database-centric backends with optimized queries\
-✔ Telegram bots & automation tooling\
+✔ Real-time systems (chat, notifications, streaming)\
+✔ Database-driven backends\
+✔ Deployment & automation tooling (DevOps focus)\
 ✔ CI/CD pipelines with GitHub Actions\
-✔ Profiling + performance tuning\
+✔ Profiling & performance optimization\
 ✔ Docker-based deployments\
-✔ Integrations with external services and APIs
+✔ Integrations with external APIs (OpenAI, crypto, etc.)
 
 ------------------------------------------------------------------------
 
 ## 🏆 Achievements
 
--   Built an infrastructure automation platform (reduced deploy
-    complexity by 40%)\
--   Migrated REST services to gRPC (--10% latency)\
--   Automated notifications for 400+ users with multi-bot Telegram
-    infrastructure\
--   Implemented a stable real-time chat for a streaming platform\
+-   Built an infrastructure automation platform (improved deploy speed
+    and consistency)\
+-   Migrated production REST services to gRPC (--10% latency)\
+-   Automated Telegram notifications for 400+ users\
+-   Developed and supported a real-time chat backend for streaming\
 -   Winner of **Open Source Bootcamp Hackathon 2025**
 
 ------------------------------------------------------------------------
